@@ -29,7 +29,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(32, 166, 255);
+    margin-top: 10px;
 
 }
 
@@ -102,37 +102,109 @@ i {
 .btn-pri {
     display: block;
     color: rgb(0, 0, 0);
-    
+
     width: 196px;
     height: 44px;
     border-radius: 25px;
     font-weight: 700;
-font-size: 16px;
-text-align: center;
-border: none;
-background: linear-gradient(to right, #4e1eae 50%, #f2ff7d 50%);
-background-size: 200% 100%;
-background-position: right ;
-transition: all .5s ease-out;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    background: linear-gradient(to right, #4e1eae 50%, #f2ff7d 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all .5s ease-out;
 
 
 }
-.btn-pri:hover{
+
+.btn-pri:hover {
     display: block;
     overflow: hidden;
     color: rgb(255, 255, 255);
     border: 2px solid white;
     background-position: left;
     background-size: 200% 100%;
-    
+
 
 }
-.btn-top >i{
+
+.btn-top>i {
     margin-left: 5px;
     color: black;
 
 }
-.btn-pri:hover .fa-arrow-right{
+
+.btn-pri:hover .fa-arrow-right {
     color: rgb(255, 255, 255);
+}
+
+/* banner setion end */
+
+
+.company {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+   
+}
+
+/* Popular-Collection style star  */
+
+.Popular-Collection >h1{
+    text-align: center;
+    font-weight: 600;
+font-size: 28px;
+}
+.items{
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin: 50px;
+}
+
+
+
+.item{
+    border: 2px solid black;
+    padding: 15px;
+    height: 500px;
+    border-radius: 15px;
+   
+}
+.item > img{
+    width: 100%;
+    margin-bottom: 16px;
+    
+}
+.item > h3{
+    font-weight: 500;
+font-size: 28px;
+margin-bottom: 5px;
+}
+.item > h5{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.item > div {
+    font-weight: 400;
+font-size: 12px;
+margin-bottom: 5px;
+}
+.item > div >p >i{
+    color:  #FB8200;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+.item >p{
+    font-weight: 700;
+font-size: 14px;
+color: #787885;
+margin-bottom: 5px;
 }
 
