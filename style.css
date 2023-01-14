@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +9,7 @@
     
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 50px;
 
 }
 nav{
@@ -50,6 +51,29 @@ i{
    width: 50px;
     
 } */
+
+/* banner section style  */
+.banner{
+    display: flex;
+}
+
+.left-banner{
+    width: 50%;
+}
+.left-banner >h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.left-banner >p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+font-size: 16px;
+}
+.right-banner{
+    width: 50%;
+    text-align: center;
+}
 
 
 
