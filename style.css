@@ -1,45 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
-    
+
 }
-.container{
-    
+
+body {}
+
+.primary-color {
+    color: #4e1eae;
+}
+
+.bg-primary {
+    background-color: #4e1eae;
+}
+
+.container {
+
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 50px;
 
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(32, 166, 255);
 
 }
-nav >div >h1{
+
+nav>div>h1 {
     font-weight: 700;
-font-size: 24px;
-color: rgb(0, 0, 0);
+    font-size: 24px;
+    color: rgb(0, 0, 0);
 }
 
 
-.nav-button{
+.nav-button {
     display: flex;
     gap: 15px;
-    
+
 }
-.nav-button >p >a{
+
+.nav-button>p>a {
     text-decoration: none;
     font-weight: 600;
-font-size: 16px;
-color: black;
+    font-size: 16px;
+    color: black;
 }
-i{
-   color: rgb(0, 0, 0);
-  font-size: larger;
-  font-weight: bold;
+
+i {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: bold;
 }
 
 /* #search{
@@ -53,27 +70,69 @@ i{
 } */
 
 /* banner section style  */
-.banner{
+.banner {
     display: flex;
+    padding: 25px;
+    border-radius: 25px;
+    color: white;
+
 }
 
-.left-banner{
+.left-banner {
     width: 50%;
 }
-.left-banner >h1{
+
+.left-banner>h1 {
     font-weight: 700;
     font-size: 52px;
 }
-.left-banner >p{
+
+.left-banner>p {
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: 600;
-font-size: 16px;
+    font-size: 16px;
 }
-.right-banner{
+
+.right-banner {
     width: 50%;
     text-align: center;
 }
 
+.btn-pri {
+    display: block;
+    color: rgb(0, 0, 0);
+    
+    width: 196px;
+    height: 44px;
+    border-radius: 25px;
+    font-weight: 700;
+font-size: 16px;
+text-align: center;
+border: none;
+background: linear-gradient(to right, #4e1eae 50%, #f2ff7d 50%);
+background-size: 200% 100%;
+background-position: right ;
+transition: all .5s ease-out;
 
+
+}
+.btn-pri:hover{
+    display: block;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    background-position: left;
+    background-size: 200% 100%;
+    
+
+}
+.btn-top >i{
+    margin-left: 5px;
+    color: black;
+
+}
+.btn-pri:hover .fa-arrow-right{
+    color: rgb(255, 255, 255);
+}
 
