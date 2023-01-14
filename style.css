@@ -119,8 +119,7 @@ i {
 }
 
 .btn-pri:hover {
-    display: block;
-    overflow: hidden;
+    
     color: rgb(255, 255, 255);
     border: 2px solid white;
     background-position: left;
@@ -172,7 +171,7 @@ font-size: 28px;
 .item{
     border: 2px solid black;
     padding: 15px;
-    height: 500px;
+    height: auto;
     border-radius: 15px;
    
 }
@@ -206,5 +205,50 @@ margin-bottom: 5px;
 font-size: 14px;
 color: #787885;
 margin-bottom: 5px;
+}
+
+
+/* responsive  */
+@media screen and (max-width:1200px)
+{
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .last-item{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:900px){
+
+    .banner{
+        flex-direction: column-reverse;
+        width: auto;
+        display: flex;
+        text-align: center;
+        
+        
+    }
+
+    .left-banner {
+        height: 50%;
+        width: 100%;
+    }
+    .right-banner {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .btn-top{
+        
+        
+        display: inline;
+    }
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }
 
